@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/eu81273/whereis/issues"
   },
-  "homepage": "https://github.com/eu81273/whereis#readme"
+  "homepage": "https://github.com/eu81273/whereis#readme",
+  "devDependencies": {
+    "should": "^7.1.1"
+  }
 }

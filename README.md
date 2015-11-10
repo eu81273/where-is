@@ -10,8 +10,8 @@ var whereIs = require('where-is');
 //where-is returns the/path/package.json/exists/
 var projectRoot = whereIs('package.json');
 
-//where-is returns false when no files matches
-var maybeFalse = whereIs('perhaps-not-matched-file');
+//where-is returns false when no file matches
+var maybeFalse = whereIs('perhaps-no-exist-file');
 ```
 
 ### Parameters

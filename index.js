@@ -13,7 +13,7 @@ var traverse = function (mark, directory) {
     }
     else {
         if (directory === parentDirectory) {
-            return null;
+            return false;
         }
         else {
             return traverse(mark, parentDirectory);

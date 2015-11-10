@@ -5,9 +5,10 @@ var whereIs = require('../');
 whereIs.should.be.function;
 
 // Execution
-whereIs('package.json').length.should.be.above(0);
-(whereIs() === null).should.be.true();
-(whereIs('perhaps-not-matched-file') === null).should.be.true();
+console.log(whereIs('package.json'))
+whereIs('package.json').should.match(/where-is/);
+whereIs().should.be.false();
+whereIs('perhaps-not-matched-file').should.be.false();
 
 // Done
 console.log('> whereIs test complete.');

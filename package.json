@@ -1,6 +1,6 @@
 {
   "name": "where-is",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Finds file or directory by traverse the directory tree bottom-up.",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/eu81273/where-is.git"
   },
+  "keywords": ["whereis", "file finder", "traverse directory ", "find the project root"],
   "author": "AHN JAE-HA",
   "license": "MIT",
   "bugs": {
